@@ -1,0 +1,11 @@
+<h1> Hello! </h1>
+
+<table>
+<% @units.each do |u| %>
+  <tr>
+    <td><%= u.unit_name %></td>
+    <td><%= u.nominal_cooling_kw %></td>
+    <td><%= u.nominal_heating_kw %></td>
+  </tr>
+<% end %>
+</table>

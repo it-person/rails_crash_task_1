@@ -1,28 +1,10 @@
-== README
+Пока что можно делать первую часть - без каритинок
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1 Поля, кторые нужно вытащить из эксельки для новых устройств
+model_name: "S-60MF2E5", nominal_cooling_kw: 6, nominal_heating_kw: 7.1
+Остальные - не надо
 
-Things you may want to cover:
+2 Потом добавить в базу и заполнить
+bypass_factor: 0.8
+Его еще в базе нет
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
